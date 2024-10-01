@@ -1,0 +1,29 @@
+﻿<Window x:Class="InterpolationApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Interpolation App" Height="450" Width="600">
+    <Grid>
+        <StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="X:"/>
+                <TextBox Name="XInput" Width="50"/>
+                <Label Content="Y:"/>
+                <TextBox Name="YInput" Width="50"/>
+                <Button Content="Add Point" Click="AddPoint_Click"/>
+            </StackPanel>
+            <ListBox Name="PointsList" Width="200" Height="200"/>
+            <Button Content="Remove Selected Point" Click="RemovePoint_Click"/>
+            <Button Content="Calculate" Click="Calculate_Click"/>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Evaluate at x:"/>
+                <TextBox Name="EvaluateXInput" Width="50"/>
+                <Button Content="Evaluate" Click="Evaluate_Click"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button Content="First Derivative" Click="FirstDerivative_Click"/>
+                <Button Content="Second Derivative" Click="SecondDerivative_Click"/>
+            </StackPanel>
+            <TextBlock Name="ResultTextBlock" TextWrapping="Wrap"/>
+        </StackPanel>
+    </Grid>
+</Window>
