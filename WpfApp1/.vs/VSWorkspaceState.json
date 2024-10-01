@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\WpfApp1",
+    "\\WpfApp1\\bin\\Debug\\net5.0-windows",
+    "\\WpfApp1\\bin\\Release",
+    "\\WpfApp1\\bin\\Release\\net5.0-windows",
+    "\\WpfApp1\\bin\\Release\\net5.0-windows\\ref"
+  ],
+  "SelectedNode": "\\WpfApp1\\MainWindow.xaml.cs",
+  "PreviewInSolutionExplorer": false
+}
