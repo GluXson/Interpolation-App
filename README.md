@@ -10,4 +10,4 @@ A simple application that calculates interpolations, creates visualizations in L
 and that's! the shortcut should appear in the same folder and It all should be work properly.
 
 ### ATTENTION
-   - The entire scripts works only on Windows;
+   - The entire scripts works only on Windows
